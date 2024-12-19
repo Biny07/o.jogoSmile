@@ -1,2 +1,2 @@
-# o.jogoSmile
-Minha versão do jogo Smile
+# Smile_Game
+Repositório do jogo Aonde está o Smile?

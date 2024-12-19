@@ -1,0 +1,135 @@
+body {
+  
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0; 
+  background-image: url('https://i.pinimg.com/736x/54/f0/16/54f01671b8c35b84d0197a5cf47c1280.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+}
+
+#principal {
+  text-align: center;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+  max-width: 800px;
+  margin: auto;
+  background-image: url('https://i.pinimg.com/736x/78/27/b6/7827b65577f37c230d863da12a9d0203.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+}
+
+
+h1 {
+  color: #b6cdfc;
+  margin-bottom: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.inicial {
+
+  text-align: center;
+  font-size: 100px;
+  background-color: #212529;
+  color: #ecf0f1;
+  width: 150px;
+  height: 200px;
+  border: 10px solid #2edf74;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  transition: background-color 0.3s, border-color 0.3s;
+  align-items: center; 
+
+}
+
+.inicial:hover {
+  background-color: #23292c;
+  border-color: #b7dcf5;
+}
+
+.acertou {
+  text-align: center;
+  color: #f5f5f5;
+  background-color: #ffffff;
+  width: 150px;
+  height: 200px;
+  border: 10px solid #18e644;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.errou {
+  text-align: center;
+  font-size: 100px;
+  color: #fff;
+  background-color: #e74c3c;
+  width: 150px;
+  height: 200px;
+  border: 10px solid #c0392b;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+#resposta {
+  font-size: 1.2em;
+  margin: 20px 0;
+}
+
+button {
+  background-color: #3498db;
+  border: none;
+  color: #fff;
+  padding: 15px 25px;
+  font-size: 1.1em;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: #306486;
+}
+
+button:active {
+  background-color: #1f618d;
+}
+
+.invisivel {
+  display: none;
+}
+
+.visivel {
+  display: inline;
+}
+.inicial, .acertou, .errou {
+  position: relative; 
+  text-align: center;
+  font-size: 100px;
+  width: 150px;
+  height: 200px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;  
+  justify-content: center; }
+
+  .inicial img, .acertou img, .errou img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    max-width: 80%;
+    max-height: 80%;
+  }
